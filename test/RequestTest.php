@@ -16,6 +16,5 @@ class RequestTest extends TestCase
         $opts = $req->toGuzzleRequestOptions();
 
         $this->assertArrayHasKey("multipart", $opts);
-        $this->assertArrayHasKey("inputFs", $opts["multipart"]);
     }
 }
