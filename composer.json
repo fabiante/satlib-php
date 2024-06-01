@@ -7,6 +7,9 @@
             "Fabiante\\Satlib\\": "src/"
         }
     },
+    "scripts": {
+        "test": "vendor/bin/phpunit --no-configuration test"
+    },
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.8",
