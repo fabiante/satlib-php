@@ -2,6 +2,7 @@
     "name": "fabiante/satlib-php",
     "description": "SDK for the satlib project",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Fabiante\\Satlib\\": "src/"
